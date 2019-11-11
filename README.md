@@ -8,4 +8,5 @@ When jenkins a container starts it will check JENKINS_HOME has this reference co
 
 ## See More
 
-Jenkins Configuration as Code (a.k.a. JCasC) Plugin JCAasC Demos
+[Jenkins Configuration as Code (a.k.a. JCasC) Plugin](https://github.com/jenkinsci/configuration-as-code-plugin/blob/master/README.md)
+[JCAasC Demos](https://github.com/jenkinsci/configuration-as-code-plugin/tree/master/demos)
