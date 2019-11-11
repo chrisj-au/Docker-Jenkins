@@ -1,0 +1,24 @@
+cloudbees-folder                # Create folders within Jenkins
+antisamy-markup-formatter       # HTML formatter
+build-timeout                   # Allow timeout on operations
+credentials-binding             # Include credentials with functions
+timestamper
+ws-cleanup                      # Workspace cleanup
+workflow-aggregator
+ssh-slaves
+mailer
+email-ext
+configuration-as-code           # Required for Jenkins Configuration as Code (JCasC)
+configuration-as-code-support
+build-user-vars-plugin
+docker-plugin
+github-organization-folder
+github
+git           
+maven-plugin
+pipeline-stage-view
+saml
+artifactory
+slack                           # Slack integration
+jira
+jira-steps

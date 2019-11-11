@@ -1,2 +1,11 @@
 # Docker-Jenkins
 Docker image for Jenkins
+
+
+### Note on volume path
+
+When jenkins a container starts it will check JENKINS_HOME has this reference content, and copy them there if required. It will not override such files, so if you upgraded some plugins from UI they won't be reverted on next start. ref: https://github.com/jenkinsci/docker/blob/master/README.md
+
+## See More
+
+Jenkins Configuration as Code (a.k.a. JCasC) Plugin JCAasC Demos

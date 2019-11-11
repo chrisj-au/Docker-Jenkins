@@ -1,0 +1,13 @@
+version: '2'
+
+services:
+  jenkins:
+    build:
+      context: .
+    container_name: Jenkins
+    restart: always
+    ports:
+      - 8080:8080
+    volumes:
+      - ./jenkins_home:/var/jenkins_home  # Persist jenkins configuration
+      - ./jenkins.yaml:/var/jenkins_home/jenkins.yaml
