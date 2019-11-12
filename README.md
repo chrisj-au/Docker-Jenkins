@@ -1,6 +1,8 @@
 # Docker-Jenkins
 Docker image for Jenkins
 
+## Notes
+Credentials are not included, these will need to be manually
 
 ### Note on volume path
 
@@ -8,5 +10,5 @@ When jenkins a container starts it will check JENKINS_HOME has this reference co
 
 ## See More
 
-[Jenkins Configuration as Code (a.k.a. JCasC) Plugin](https://github.com/jenkinsci/configuration-as-code-plugin/blob/master/README.md)
+[Jenkins Configuration as Code (a.k.a. JCasC) Plugin](https://github.com/jenkinsci/configuration-as-code-plugin/blob/master/README.md)  
 [JCAasC Demos](https://github.com/jenkinsci/configuration-as-code-plugin/tree/master/demos)

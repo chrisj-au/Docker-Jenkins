@@ -14,8 +14,7 @@ build-user-vars-plugin
 docker-plugin
 github-organization-folder
 github
-git           
-maven-plugin
+git
 pipeline-stage-view
 saml
 artifactory
