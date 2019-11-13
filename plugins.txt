@@ -26,3 +26,4 @@ generic-webhook-trigger
 http_request:latest
 sonar:latest
 azure-credentials:latest
+pipeline-github-lib: latest
