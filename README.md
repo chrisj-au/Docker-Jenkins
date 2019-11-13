@@ -4,7 +4,8 @@ Docker image for Jenkins
 ## Getting started
 
 sudo systemctl start docker
-
+sudo docker build -t jenk .
+sudo docker run -p 8080:8080 jenk
 
 ## Notes
 Credentials are not included, these will need to be manually
