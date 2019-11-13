@@ -1,6 +1,11 @@
 # Docker-Jenkins
 Docker image for Jenkins
 
+## Getting started
+
+sudo systemctl start docker
+
+
 ## Notes
 Credentials are not included, these will need to be manually
 
